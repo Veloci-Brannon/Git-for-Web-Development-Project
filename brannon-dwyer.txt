@@ -1,0 +1,173 @@
+Hello its kinda taken me a while to figure this out. I was met with a slight wall to climb over when running git bash commands in visual studio code.
+I created this file in git bash. When I tried opening it from git bash it opened in my computers notepad editor from what ive read so far, well actually I dont think ive read enough cause im still not sure how to open the file in Visual Studio code from the git bash terminal. But Im on my way to figuring this out. 
+
+
+Codepen project link: https://codepen.io/Brd-000/pen/KKgrORw?editors=1100
+
+
+
+1. What is Semantic HTML?  
+
+	Answer: Semantic HTML could be described as HTML tags that are named in relation to what they do on the screen. 
+They add specificity to the screens lay out rather than using a div with a class or id. 
+   
+2. What is HTML used for?
+ 
+	Answer: HTML is used for marking the raw content(words,pictures, and video) and dividing into specific blocks as it is related to each other 
+    
+3. What is an attribute and where do we put it?
+ 
+	Answer: An attribute applies additional information to a tag. Its always in the opening tag. 
+    
+4. What is the h1 tag used for? How many times should I use it on a page?
+ 
+	Answer:Its used for the title of the page and it should only appear once on a page.
+
+5. Name two tags that have required attributes 
+
+	Answer: <img> because the image needs to be add throught the src attribute and <a> because its used for links and a link needs to be added by the href attribute.   
+    
+6. What do we put in the head of our HTML document? 
+
+	Answer: The language of the code in the document
+    
+7. What is an id? 
+
+	Answer: An id is and attribute similar to the class attribute. It intention is to add more specifity to a tag. 
+
+8. What elements can I add an id to? 
+
+	Answer:All the elements but you can only use the same key word once per tag.
+ 
+9. How many times can I use the same id on a page? 
+
+	Answer: 1 time.
+
+10. What is a class? 
+
+	Answer:An attribute that can add a key word to multiple tags as to control all of there appearence and function with in the style sheet.  
+
+11. What elements can I add a class to? 
+
+	Answer: I think you can add a class to any element because its used as a naming convention.
+
+12. How many times can I use the same class on a page? 
+
+	Answer: As many as you want.
+
+13. How do I get my link to open in a new tab? 
+
+	Answer: <a href="new tab" target= "_blank" rel="noopener noreferer">Name of button</a> Wasnt sure how to answer this question because of the "in a new tab portion" I read on (https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) that adding the target attribute set to _blank will open the link in a new tab and the rel attribute set to "noopener noreferer" will help prevent possible malicious attacks. 
+
+14. What is the alt attribute in the image tag used for?
+
+	Answer: its used to show an alternative text message if the src image doesnt load.
+    
+15. How do I reference an id? 
+
+	Answer:#nameofid
+
+16. What is the difference between a section and a div 
+	
+	Answer: A section is a more specific container. Section meaning actual section of the page vs div which is just an empty container waiting for meaning to be aplied through a class or id.
+
+17. What is CSS used for? 
+
+	Answer: CSS is used for styling the content that is stored in the html document.
+   
+18. How to we select an element? Example - every h2 on the page 
+
+	Answer: h2{}
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one 
+
+	Answer:What makes an id different from a class is the key word can only be used once per tag, where as you can use the key word from a class on multiple tags. I also just read that white space with in a id is counted as part of the id, where as it does not do this with a class attribute.
+   
+ 20. How do we select classes in CSS? 
+
+	Answer: .classname{}
+
+21. How do we select a p element with a single class of “human””? 
+
+	Answer: p.human{}
+
+22. What is a parent child selector? When would this be useful? 
+
+	Answer: It looks like div.class > p{}. It could be usefull if one wanted to change all the p tags in a div class. 
+
+23. How do you select all links within a div with the class of sidebar? 
+
+	Answer: .sidebar a :link{}
+
+24. What is a pseudo selector? 
+
+	Answer: A keyword added to a selector that specifies a certain type of state depending on the word. :hover changes the color of an item when you the mouse hovers over it  
+   
+25. What do we use the change the spacing between lines?
+
+	Answer: The line height property changes the space between lines of text.
+
+26. What do we use to change the spacing between letters?
+    
+	Answer: The letter-spacing property changes the spacing between letters in a sentance. 
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    
+	Answer: Text-transform property controls the capitlization of text.
+
+28. How do I add a 1px border around my div that is dotted and black?
+ 
+	Answer: div{ border: 1px dotted black}
+
+29. How do I select everything on the page? 
+
+	Answer: *{}
+
+30. How do I write a comment in CSS?
+
+	Answer: */ comment between this */
+    
+31. How do I find out what file I am in, when I am using the command line?
+ 
+	Answer: Whoami command
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+	Answer: ls command
+    
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+	Answer: git rm <file name>
+  
+34. Why should I use version control? 
+
+	Answer: So you dont make unnessasary changes to the master repository. 
+
+35. How often should I commit to github?
+
+	Answer: When you are asked too 
+
+36. What is the command we would use to push our repo up to github? 
+
+	Answer: git push <
+
+37. Walk me through Lambda's git flow. 
+
+	Answer: 
+Find a project you want to contribute to
+Fork it
+Clone it to your local system
+Make a new branch
+Make your changes
+Push it back to your repo
+Click the Compare & pull request button
+Click Create pull request to open a new pull request
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
